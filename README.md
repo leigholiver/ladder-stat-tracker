@@ -2,7 +2,7 @@
 A (mostly) automated ladder stat tracker for sc2 streamers
 
 usage: 
-- download ladder-stat-tracker.exe
+- [download ladder-stat-tracker.exe](https://github.com/leigholiver/ladder-stat-tracker/raw/master/ladder-stat-tracker.exe)
 - add scores.txt to your streaming software as a text source
 
 issues due to api limitations:
