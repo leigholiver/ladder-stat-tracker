@@ -6,5 +6,6 @@ usage:
 - add scores.txt to your streaming software as a text source
 
 issues due to api limitations:
+- the first time a game is recorded, you have to click a button to confirm your name
 - if you have the same name as your opponent, you have to click a button to confirm the result
 - if you play vs random, you have to click a button to confirm the race
