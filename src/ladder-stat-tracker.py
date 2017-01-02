@@ -140,6 +140,9 @@ class LadderStats(QWidget):
         scoreFile = open('scores.txt', 'w')
         scoreFile.write(score)
         scoreFile.close()
+        scoreFileJson = open('scores.json', 'w')
+        scoreFileJson.write(json.dumps(self.scores))
+        scoreFileJson.close()
 
     def closeEvent(self, event):
         self.settings.setValue("geometry", self.saveGeometry())
